@@ -35,7 +35,8 @@ The API uses **JWT Bearer Token Authentication** to secure endpoints.
 * The token must be included in requests using:
 
 ```
-Authorization: Bearer {token}
+Authorization: {token} -- NO bearer already included in code
+
 ```
 
 ### Security Features:
